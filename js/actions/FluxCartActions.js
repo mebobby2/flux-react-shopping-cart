@@ -1,7 +1,7 @@
 var AppDispatcher = require('../dispatcher/AppDispatcher');
 var FluxCartConstants = require('../constants/FluxCartConstants');
 
-// Define actions object
+// Define action methods
 var FluxCartActions = {
 
   // Receive inital product data

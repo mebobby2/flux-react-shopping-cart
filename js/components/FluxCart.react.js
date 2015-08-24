@@ -26,7 +26,7 @@ var FluxCart = React.createClass({
     return (
       <div className={"flux-cart " + (this.props.visible ? 'active' : '')}>
         <div className="mini-cart">
-          <button type="button" className="close-cart" onClick={this.closeCart}>×</button>
+          <button type="button" className="close-cart" onClick={this.closeCart}>&times;</button>
           <ul>
             {Object.keys(products).map(function(product){
               return (
